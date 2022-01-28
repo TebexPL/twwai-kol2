@@ -1,6 +1,5 @@
 'use strict';
 
-import userManager from './user.manager';
 import paramManager from './param.manager';
 
 
@@ -11,6 +10,5 @@ function getter(manager, request) {
 }
 
 export default {
-    getUserManager: getter(userManager),
     getParamManager: getter(paramManager),
 };

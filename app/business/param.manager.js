@@ -2,13 +2,23 @@ import paramDAO from '../DAO/paramDAO';
 
 function create() {
     async function query() {
-        //funkcja pobierająca wszystkie wpisy
+      let result = paramDAO.query();
+      if (result) {
+          return result;
+      }
     }
 
-        //add
+    async function add(object) {
+      let result = paramDAO.add(object);
+      if(result)
+        return result;
+
+    }
+
 
     return {
         query: query,
+        add: add
     };
 }
 
