@@ -7,7 +7,7 @@
 
 Odczyt = (temperatura, ciśnienie, wilgotność - powietrza, aktualna data - format DD:MM HH:mm:ss)
 
-2. Zbudowanie aplikacji klienckiej
+2. Zbudowanie aplikacji klienckiej (React + charts.js)
 - Wyświetlanie postów pobranych z serwera
 
 3. Dodanie nowych odczytów za pomocą POSTMAN
