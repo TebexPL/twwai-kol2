@@ -9,7 +9,7 @@ const paramSchema = new mongoose.Schema({
     pressure: {type: String},
     date: {type: String}
 }, {
-    collection: 'params'
+    collection: 'paramsXY'
 });
 paramSchema.plugin(uniqueValidator);
 
